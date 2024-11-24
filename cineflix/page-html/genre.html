@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Découvrez les différents genres de films : action,  comédie, drame, thriller et bien plus. Explorez des recommandations pour chaque style et trouvez le film parfait selon vos envies du moment."
+    />
+    <meta property="og:type" content="website" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Agbalumo"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="icon" href="../img/logo-cineflix.webp" type="image/x-icon" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style-genre.css" />
+
+    <title>CinéFlix-genre</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-nav">
+        <div class="container-fluid">
+          <img
+            src="../img/logo-cineflix.png"
+            alt="logo cineflix"
+            class="img.fluid"
+            href="#"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="../Index.html"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../page-html/listes-des-films.html">Liste des Films </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../page-html/nouveaute.html">Nouveautés</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Genre de films
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="action">
+                    <a class="dropdown-item" href="#action"
+                      ><img
+                        src="../img/film-daction.png"
+                        alt="logo film d'action"
+                      />Film d'action</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#comedie"
+                      ><img
+                        src="../img/comedie.png"
+                        alt="logo film drole"
+                      />Comédie</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#drame"
+                      ><img
+                        src="../img/drame.png"
+                        alt="logo film drole"
+                      />Drame</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#thriller"
+                      ><img
+                        src="../img/mystere.png"
+                        alt="logo film drole"
+                      />Thriller</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#horreur"
+                      ><img
+                        src="../img/thriller.png"
+                        alt="logo film drole"
+                      />Horreur</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Chercher"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Chercher
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="line"></div>
+    </header>
+
+    <main>
+      <section>
+        <div class="film-action">
+          <p id="action">Film d'action</p>
+        </div>
+        <div class="container-image">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+              <img src="../img/top-gun.png" alt="affiche Top gun" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <img src="../img/rambo.jpg" alt="affiche Rambo" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <img src="../img/terminator.jpg" alt="affiche Terminator" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <img
+                src="../img/fast-and-furious-hobbs-show.jpg"
+                alt="affiche Fast and Furious"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div data-aos="fade-down">
+          <div class="film-comedie">
+            <p id="comedie">Comédie</p>
+          </div>
+          <div class="container-image">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-3">
+                <img
+                  src="../img/Bienvenue-chez-les-Ch-tis.jpg"
+                  alt="affiche Bienvenue chez les ch'tis"
+                />
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="../img/double-zero.png" alt="affiche Double zero" />
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img
+                  src="../img/la-tour.jpg"
+                  alt="affiche La infernale de Monparnasse"
+                />
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="../img/les-mythos.jpg" alt="affiche Les mythos" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div data-aos="fade-down">
+          <div class="film-drame">
+            <p id="drame">Drame</p>
+          </div>
+          <div class="container-image">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-3">
+                <img
+                  src="../img/one-million.png"
+                  alt="affiche one-million-dollard-baby"
+                />
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="../img/tatami.jpg" alt="affiche tatami" />
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="../img/titanic.png" alt="affiche titanic" />
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="../img/une-mere.png" alt="affiche une mère" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div data-aos="fade-down">
+          <div class="film-thriller">
+            <p id="thriller">Thriller</p>
+          </div>
+          <div class="container-image">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="../img/glass.jpg" alt="affiche glass" />
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="../img/split.png" alt="affiche split" />
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="../img/joker.jpg" alt="affiche joker" />
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="../img/boite-noire.jpg" alt="affiche une mère" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div data-aos="fade-down">
+          <div class="film-horreur">
+            <p id="horreur">Film d'horreur</p>
+          </div>
+          <div class="container-image">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="../img/chucky.jpg" alt="affiche chucky" />
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="../img/it.jpg" alt="affiche ça" />
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="../img/insidious.png" alt="affiche insidious" />
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="../img/la-nonne.jpg" alt="affiche la nonne" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <br />
+    <br />
+    <div class="line"></div>
+    <br />
+    <br />
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <ul>
+            <li>
+              <a href="mailto:Cinéflix@gmail.com"
+                ><img src="../img/gmail.png" alt="logo gmail" />Emai :
+                Cinéflix@gmail.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:0646424559"
+                ><img src="../img/logo-tel.png" alt="logo telephone" />Téléphone
+                : 0646424559</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.google.fr/maps/place/10+Rue+du+G%C3%A9n%C3%A9ral+Sarrail,+76000+Rouen/@49.4411767,1.1034718,16z/data=!3m1!4b1!4m6!3m5!1s0x47e0de80037b0b31:0xc44b86a6389ced60!8m2!3d49.4411767!4d1.1034718!16s%2Fg%2F11c2h9ws0b?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                ><img
+                  src="../img/logo-loc.png"
+                  alt="logo localisation"
+                />Adresse : 10 Rue du Général Sarrail</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Page Principale</h3>
+          <ul>
+            <li><a href="../Index.html">Accueil</a></li>
+            <li><a href="../page-html/listes-des-films.html">Liste des films</a></li>
+            <li><a href="../page-html/nouveaute.html">Nouveautés</a></li>
+            <li><a href="../page-html/genre.html">genre de films</a></li>
+            <li><a href="../page-html/mention.html "target="_blank">mention légal </a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Réseaux sociaux</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Dfr_FR"
+                target="_blank"
+                ><img src="../img/facebook.png" alt="log facebook" />Facebook</a
+              >
+            </li>
+            <li>
+              <a href="https://x.com/?lang=fr" target="_blank"
+                ><img src="../img/twitter.png" alt="logo twitter" />Twitter</a
+              >
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img src="../img/insta.png" alt="logo instagram" />Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

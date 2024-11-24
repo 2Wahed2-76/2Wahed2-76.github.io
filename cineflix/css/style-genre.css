@@ -1,0 +1,162 @@
+body {
+  background-color: black;
+  font-family: "Agbalumo", sans-serif !important;
+}
+
+.img-fluid {
+  height: auto;
+  width: 100%;
+}
+.navbar a {
+  color: yellow;
+  transition: 0.3s;
+  font-size: 1.5rem;
+}
+.bg-nav {
+  background-color: black;
+}
+
+.navbar a:hover {
+  color: cornsilk;
+  scale: 1.1;
+}
+
+.dropdown-menu {
+  background-color: black;
+}
+
+.dropdown-menu img {
+  width: 20%;
+  height: auto;
+  margin-right: 5%;
+}
+.dropdown-item:hover {
+  background-color: rgb(55, 55, 55);
+}
+.nav-link {
+  color: aliceblue;
+  margin-left: 1rem;
+}
+.navbar:active {
+  color: aliceblue;
+}
+.navbar-nav .nav-link.show {
+  color: yellow;
+}
+.nav-link:focus {
+  color: yellow;
+}
+.line {
+  height: 5px;
+  background-color: yellow;
+  box-shadow: 0 0 20px yellow, 0 0 40px yellow, 0 0 60px yellow;
+}
+.btn {
+  color: yellow;
+  border-color: yellow;
+}
+.btn:hover {
+  background-color: black;
+  border-color: yellow;
+  color: yellow;
+}
+.navbar-toggler-icon {
+  background-color: yellow;
+  border-radius: 0.5rem;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.film-action {
+  margin-top: 5%;
+}
+.film-action p,
+.film-comedie p,
+.film-drame p,
+.film-thriller p,
+.film-horreur p {
+  color: aliceblue;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 15%;
+}
+.container-image img {
+  width: 85%;
+  height: auto;
+  border-radius: 1rem;
+  transition: 0.5s;
+}
+.container-image {
+  margin-right: 0;
+  margin-top: 3%;
+}
+
+.row {
+  margin-right: 0;
+  text-align: center;
+}
+.container-image img:hover {
+  scale: 1.2;
+  box-shadow: 10px 5px 5px yellow;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 50px 20px;
+  margin-left: 12%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: yellow;
+}
+.footer-column img {
+  height: auto;
+  width: 10%;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    margin-bottom: 30px;
+  }
+}

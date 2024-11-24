@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:type" content="cinéflix" />
+    <meta
+      property="og:title"
+      content="Critiques, bandes-annonces et recommandations pour trouver facilement votre prochain coup de cœur cinéma !"
+    />
+    <meta
+      name="description"
+      content="Découvrez le répertoire ultime des films : critiques, bandes-annonces, informations détaillées et recommandations personnalisées. Trouvez facilement votre prochain coup de cœur cinéma !"
+    />
+    <title>Cineflix</title>
+    <link rel="icon" type="image/x-icon" href="img/logo-cineflix.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Agbalumo"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="icon" href="img/logo-cineflix.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style-index.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-nav">
+        <div class="container-fluid">
+          <img
+            src="img/logo-cineflix.png"
+            alt="logo cineflix"
+            class="img.fluid"
+            href="#"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="Index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page-html/listes-des-films.html">Liste des Films </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page-html/nouveaute.html">Nouveautés</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="page-html/genre.html">
+                  Genre de films
+                </a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Chercher"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Chercher
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="line"></div>
+    </header>
+
+    <main>
+      <section>
+        <div class="scroller"></div>
+        <h2>Films Populaires</h2>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/migration.jpg" class="d-block" alt="Migration" />
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Migration</h2>
+                <div class="espace"></div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/Spy_x_familly_code_white.jpg"
+                class="d-block"
+                alt="Spy X Family"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Spy X Familly</h2>
+                <div class="espace"></div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/les_trois_mousquetaires_d'artagnan.jpg"
+                class="d-block"
+                alt="Les Trois Mousquetaires D'Artagnan"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Les Trois Mousquetaires</h2>
+                <div class="espace"></div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <h1>Films Tendance</h1>
+      <section>
+        <div class="Container-tendance">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+              <img src="img/aquaman.jpg" alt="Aquaman" />
+              <p class="h3">
+                <a
+                  href="https://www.youtube.com/watch?v=aky3iFEBfm0&pp=ygUpYmFuZGUgYW5ub25jZSBhcXVhbWFuIGV0IGxlIHJveWF1bWUgcGVyZHU%3D"
+                  target="_blank"
+                  >Film 1</a
+                >
+              </p>
+            </div>
+            <!--Fin des col pour les images-->
+            <div class="col-12 col-sm-6 col-md-4">
+              <img src="img/gran_turismo.jpg" />
+              <p class="h3">
+                <a
+                  href="https://www.youtube.com/watch?v=9tR6oOlnkw4&pp=ygUbYmFuZGUgYW5ub25jZSBncmFuIHR1cmlzbW8g"
+                  alt="Gran Turismo"
+                  target="_blank"
+                  >Film 2</a
+                >
+              </p>
+            </div>
+            <!--Fin des col pour les images-->
+            <div class="col-12 col-sm-6 col-md-4">
+              <img src="img/mario.jpg" alt="Mario" />
+              <p class="h3">
+                <a
+                  href="https://www.youtube.com/watch?v=iwst-UZn3wM&pp=ygUTYmFuZGUgYW5ub25jZSBtYXJpbw%3D%3D"
+                  alt="Mario"
+                  target="_blank"
+                  >Film 3</a
+                >
+              </p>
+            </div>
+            <!--Fin des col pour les images-->
+            <div class="col-12 col-sm-6 col-md-4">
+              <img
+                src="img/mission_impossible.jpg"
+                alt="Mission Impossible"
+              />
+              <p class="h3">
+                <a
+                  href="https://www.youtube.com/watch?v=pPPCoh8RNXM&pp=ygU4YmFuZGUgYW5ub25jZSBtaXNzaW9uIGltcG9zc2libGUgZGVhZCByZWNrb25pbmcgcGFydGllIDE%3D"
+                  alt="Mission Impossible"
+                  target="_blank"
+                  >Film 4</a
+                >
+              </p>
+            </div>
+            <!--Fin des col pour les images-->
+            <div class="col-12 col-sm-6 col-md-4">
+              <img src="img/oppenheimer.jpg" alt="Oppenheimer" />
+              <p class="h3">
+                <a
+                  href="https://www.youtube.com/watch?v=CoXtvSRpHgM&pp=ygUZYmFuZGUgYW5ub25jZSBvcHBlbmhlaW1lcg%3D%3D"
+                  alt="Oppenheimer"
+                  target="_blank"
+                  >Film 5</a
+                >
+              </p>
+            </div>
+            <!--Fin des col pour les images-->
+            <div class="col-12 col-sm-6 col-md-4">
+              <img src="img/spiderman.jpg" alt="Spiderman" />
+              <p class="h3">
+                <a
+                  href="https://www.youtube.com/watch?v=iZSRP2UYtO4&pp=ygUwYmFuZGUgYW5ub25jZSBzcGlkZXIgbWFuIGFjcm9zcyB0aGUgc3BpZGVyIHZlcnNl"
+                  alt="Spider-Man"
+                  target="_blank"
+                  >Film 6</a
+                >
+              </p>
+            </div>
+            <!--Fin des col pour les images-->
+            <div class="col-12 col-sm-6 col-md-4">
+              <img src="img/sonic3.jpg" alt="Sonic" />
+              <p class="h3">
+                <a
+                  href="https://www.youtube.com/watch?v=u3FPF_4eE-s"
+                  alt="Sonic 3"
+                  target="_blank"
+                  >Film 7</a
+                >
+              </p>
+            </div>
+            <!--Fin des col pour les images-->
+            <div class="col-12 col-sm-6 col-md-4">
+              <img src="img/flow.jpg" alt="Flow" />
+              <p class="h3">
+                <a
+                  href="https://www.youtube.com/watch?v=cINDsPgaHRI"
+                  alt="Flow, le chat qui n’avait plus peur de l’eau"
+                  target="_blank"
+                  >Film 8</a
+                >
+              </p>
+            </div>
+            <!--Fin des col pour les images-->
+            <div class="col-12 col-sm-6 col-md-4">
+              <img src="img/le_robot_sauvage.jpg" alt="Le Robot Sauvage" />
+              <p class="h3">
+                <a
+                  href="https://www.youtube.com/watch?v=XYYds-K65Ls"
+                  alt="Le Robot Sauvage"
+                  target="_blank"
+                  >Film 9</a
+                >
+              </p>
+            </div>
+            <!--Fin des col pour les images-->
+            <div class="col-12 col-sm-6 col-md-4">
+              <img src="img/venom_the_last_dance.jpg" alt="Venom" />
+              <p class="h3">
+                <a
+                  href="https://www.youtube.com/watch?v=TEg5kTBN22I"
+                  alt="Venom: The Last Dance"
+                  target="_blank"
+                  >Film 10</a
+                >
+              </p>
+            </div>
+            <!--Fin des col pour les images-->
+            <div class="col-12 col-sm-6 col-md-4">
+              <img
+                src="img/on_aurais_du.jpg"
+                alt="On Aurais Du aller en Grèce"
+              />
+              <p class="h3">
+                <a
+                  href="https://www.youtube.com/watch?v=ob7QApr45F4"
+                  alt="On aurait dû aller en Grèce"
+                  target="_blank"
+                  >Film 11</a
+                >
+              </p>
+            </div>
+            <!--Fin des col pour les images-->
+            <div class="col-12 col-sm-6 col-md-4">
+              <img src="img/challenger.jpg" alt="Challenger" />
+              <p class="h3">
+                <a
+                  href="https://www.youtube.com/watch?v=dKGGSBZHdDU"
+                  alt="Challenger"
+                  target="_blank"
+                  >Film 12</a
+                >
+              </p>
+            </div>
+            <!--Fin des col pour les images-->
+          </div>
+        </div>
+      </section>
+    </main>
+    <br />
+    <br />
+    <div class="line"></div>
+    <br />
+    <br />
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3 class="h3-footer">Contact</h3>
+          <ul>
+            <li>
+              <a href="mailto:Cinéflix@gmail.com"
+                ><img src="img/gmail.png" alt="logo gmail" />Emai :
+                Cinéflix@gmail.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:0646424559"
+                ><img src="img/logo-tel.png" alt="logo telephone" />Téléphone
+                : 0646424559</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.google.fr/maps/place/10+Rue+du+G%C3%A9n%C3%A9ral+Sarrail,+76000+Rouen/@49.4411767,1.1034718,16z/data=!3m1!4b1!4m6!3m5!1s0x47e0de80037b0b31:0xc44b86a6389ced60!8m2!3d49.4411767!4d1.1034718!16s%2Fg%2F11c2h9ws0b?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                ><img
+                  src="img/logo-loc.png"
+                  alt="logo localisation"
+                />Adresse : 10 Rue du Général Sarrail</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3 class="h3-footer">Page Principale</h3>
+          <ul>
+            <li><a href="Index.html">Accueil</a></li>
+            <li><a href="page-html/listes-des-films.html">Liste des films</a></li>
+            <li><a href="page-html/nouveaute.html">Nouveautés</a></li>
+            <li><a href="page-html/genre.html">genre de films</a></li>
+            <li><a href="page-html/mention.html "target="_blank">mention légal </a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3 class="h3-footer">Réseaux sociaux</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Dfr_FR"
+                target="_blank"
+                ><img src="img/facebook.png" alt="log facebook" />Facebook</a
+              >
+            </li>
+            <li>
+              <a href="https://x.com/?lang=fr" target="_blank"
+                ><img src="img/twitter.png" alt="logo twitter" />Twitter</a
+              >
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img src="img/insta.png" alt="logo instagram" />Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!--animated css-->
+  </body>
+</html>

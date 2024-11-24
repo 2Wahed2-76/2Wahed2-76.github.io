@@ -1,0 +1,238 @@
+/* Style de base */
+body {
+  background-color: #000 !important;
+  color: yellow !important;
+  text-align: center;
+  font-family: "Agbalumo", sans-serif !important;
+}
+img {
+  text-align: center;
+}
+.img-fluid {
+  height: auto;
+  width: 100%;
+}
+.navbar a {
+  color: yellow;
+  transition: 0.3s;
+  font-size: 1.5rem;
+}
+.bg-nav {
+  background-color: black;
+}
+
+.navbar a:hover {
+  color: cornsilk;
+  scale: 1.1;
+}
+
+.dropdown-menu {
+  background-color: black;
+}
+
+.dropdown-menu img {
+  width: 20%;
+  height: auto;
+  margin-right: 5%;
+}
+.dropdown-item:hover {
+  background-color: rgb(55, 55, 55);
+}
+.nav-link {
+  color: aliceblue;
+  margin-left: 1rem;
+}
+.navbar:active {
+  color: aliceblue;
+}
+.navbar-nav .nav-link.show {
+  color: yellow;
+}
+.nav-link:focus {
+  color: yellow;
+}
+.line {
+  height: 5px;
+  background-color: yellow;
+  box-shadow: 0 0 20px yellow, 0 0 40px yellow, 0 0 60px yellow;
+}
+.btn {
+  color: yellow;
+  border-color: yellow;
+}
+.btn:hover {
+  background-color: black;
+  border-color: yellow;
+  color: yellow;
+}
+.navbar-toggler-icon {
+  background-color: yellow;
+  border-radius: 0.5rem;
+}
+
+/* Style pour forcer la couleur de fond de la navbar Bootstrap */
+.categorie {
+  background-color: black !important;
+}
+.scroller {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  z-index: 1000;
+  background: linear-gradient(to right, yellow, rgba(255, 148, 166, 0) 100%);
+  background-repeat: no-repeat;
+  background-size: 0;
+  transform-origin: left;
+  animation: scroll linear;
+  animation-timeline: scroll();
+  animation-range-start: cover 100px;
+  animation-range-end: cover 100%;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: yellow !important;
+}
+h2 {
+  padding: 1%;
+  text-align: center;
+  color: yellow !important;
+}
+.espace {
+  margin-top: 5%;
+}
+.d-block {
+  width: 17%;
+  margin: auto;
+  margin-bottom: 12%;
+}
+.card {
+  width: 18rem;
+}
+.img-fluid {
+  width: 10em;
+  margin-left: 68%;
+  margin-right: 5%;
+  margin-top: 5%;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Container-tendance img {
+  margin-left: 36%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  width: 30%;
+  height: auto;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px yellow;
+  transition: transform 0.3s, box-shadow 0.3s;
+  animation: reveal linear 1s;
+  animation-timeline: view();
+  animation-range-start: cover 0%;
+  animation-range-end: contain 50%;
+}
+.row {
+  margin-right: 4%;
+  margin-left: -10%;
+}
+.Container-tendance img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 15px yellow;
+}
+
+.h3 {
+  margin-left: 54%;
+  margin-right: 17%;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 8px 19px yellow;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.h3 a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 50px 20px;
+  margin-left: 12%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 20px;
+  text-align: start;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: yellow;
+}
+.footer-column img {
+  height: auto;
+  width: 10%;
+}
+
+@keyframes reveal {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes scroll {
+  from {
+    background-size: 0% 5px;
+  }
+  to {
+    background-size: 100% 5px;
+  }
+}
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    margin-bottom: 30px;
+  }
+}

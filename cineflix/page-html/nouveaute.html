@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en==fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="title"
+      content="Nouveautés Cinéflix : Films et Séries à découvrir"
+    />
+    <meta
+      name="description"
+      content="Découvrez les dernières nouveautés sur Cinéflix : films et séries à ne pas manquer. Restez à jour avec nos nouvelles sorties !"
+    />
+    <meta
+      name="keywords"
+      content="nouveautés, Cinéflix, films, séries, nouvelles sorties, films à découvrir, séries à découvrir, nouveaux films, nouvelles séries"
+    />
+    <title>Cinéflix.fr</title>
+    <!-- Lien vers le CSS de Bootstrap -->
+    <link rel="icon" href="../img/logo-cineflix.webp" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Agbalumo"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="../css/nouveaute.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-nav">
+        <div class="container-fluid">
+          <img
+            class="logo"
+            src="../img/logo-cineflix.png"
+            alt="logo cineflix"
+            class="img.fluid"
+            href="#"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../Index.html"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../page-html/listes-des-films.html"
+                  >Liste des Films
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../page-html/nouveaute.html"
+                  >Nouveautés</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="../page-html/genre.html">
+                  Genre de films
+                </a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Chercher"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Chercher
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="line"></div>
+    </header>
+    <!-- Fin de la Navbar -->
+
+    <main>
+      <section class="grille_des_films container mt-5">
+        <h1>Les films</h1>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+              <!-- Film 1 -->
+              <div class="card film-card">
+                <a
+                  href="https://www.youtube.com/watch?v=a_OUHJziaoE"
+                  target="_blank"
+                  ><img
+                    src="../img/les-trois-mousquetaires-dartagnan.webp"
+                    alt="image promo du film Les trois mousquetaires dartagnan"
+                    class="film-image"
+                  />
+                </a>
+                <div class="film-info">
+                  <h5 class="card-title">Les trois les-trois-mousquetaires</h5>
+                  <p><strong>Date de sortie:</strong><br />13-04-2023</p>
+                  <p><strong>Genre:</strong> Roman historique</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <!-- Film 2 -->
+              <div class="card film-card">
+                <a
+                  href="https://www.youtube.com/watch?v=CoXtvSRpHgM"
+                  target="_blank"
+                  ><img
+                    src="../img/oppenheimer.webp"
+                    alt="image promo du film Oppenheimer"
+                    class="film-image"
+                  />
+                </a>
+                <div class="film-info">
+                  <h5 class="card-title">Oppenheimer</h5>
+                  <p><strong>Date de sortie:</strong><br />19-07-2023</p>
+                  <p><strong>Genre:</strong> Thriller</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <!-- Film 3 -->
+              <div class="card film-card">
+                <a href="https://www.youtube.com/watch?v=-5qyM5TSWuY"
+                  ><img
+                    src="../img/kung-fu-panda.webp"
+                    alt="image promo du film Kong fu panda"
+                    class="film-image"
+                  />
+                </a>
+                <div class="film-info">
+                  <h5 class="card-title">Kong fu Panda</h5>
+                  <p><strong>Date de sortie:</strong><br />08-03-2024</p>
+                  <p><strong>Genre:</strong> Comédie</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <!-- Film 4 -->
+              <div class="card film-card">
+                <a
+                  href="https://www.youtube.com/watch?v=oS_E5W7URs4"
+                  target="_blank"
+                  ><img
+                    src="../img/gran_turismo.webp"
+                    alt="image promo du film Gran turismo"
+                    class="film-image"
+                  />
+                </a>
+                <div class="film-info">
+                  <h5 class="card-title">Gran Turismo</h5>
+                  <p><strong>Date de sortie:</strong><br />25-08-2023</p>
+                  <p><strong>Genre:</strong> Aventure</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <!-- Film 5 -->
+              <div class="card film-card">
+                <a
+                  href="https://www.youtube.com/watch?v=kz34RaRBczI"
+                  target="_blank"
+                  ><img
+                    src="../img/mission-impossible-dead-reckoning.webp"
+                    alt="image promo du film Mission-impossible-dead-reckoning"
+                    class="film-image"
+                  />
+                </a>
+                <div class="film-info">
+                  <h5 class="card-title">Mission: Impossible Dead Reckoning</h5>
+                  <p><strong>Date de sortie:</strong><br />12-07-2023</p>
+                  <p><strong>Genre:</strong> Espionnage</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <!-- Film 6 -->
+              <div class="card film-card">
+                <a
+                  href="https://www.youtube.com/watch?v=V4gQdk1nAn0"
+                  target="_blank"
+                  ><img
+                    src="../img/top-gun-maverick.webp"
+                    alt="image promo du film Top gun maverick"
+                    class="film-image"
+                  />
+                </a>
+                <div class="film-info">
+                  <h5 class="card-title">Top Gun "Maverick"</h5>
+                  <p><strong>Date de sortie:</strong><br />25-05-2022</p>
+                  <p><strong>Genre:</strong> Action</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <!-- Film 7 -->
+              <div class="card film-card">
+                <a
+                  href="https://www.youtube.com/watch?v=iZSRP2UYtO4"
+                  target="_blank"
+                  ><img
+                    src="../img/spiderman-across-the-spider-verse.webp"
+                    alt="image promo du film Spider-Man across the Spider-Verse"
+                    class="film-image"
+                  />
+                </a>
+                <div class="film-info">
+                  <h5 class="card-title">Spider-Man Across the Spider-Verse</h5>
+                  <p><strong>Date de sortie:</strong><br />31-05-2024</p>
+                  <p><strong>Genre:</strong> Film de super-héros</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <!-- Film 8 -->
+              <div class="card film-card">
+                <a
+                  href="https://www.youtube.com/watch?v=iwst-UZn3wM"
+                  target="_blank"
+                  ><img
+                    src="../img/mario-bros-le-film.webp"
+                    alt="image promo du film Mario bros le film"
+                    class="film-image"
+                  />
+                </a>
+                <div class="film-info">
+                  <h5 class="card-title">Super Mario Bros le Film</h5>
+                  <p><strong>Date de sortie:</strong><br />05-04-2024</p>
+                  <p><strong>Genre:</strong> Cinéma de Fantasy</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="les_plus_recents">
+        <h2 class="text-center">Les films les plus récents</h2>
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a
+                href="https://www.youtube.com/watch?v=iZSRP2UYtO4"
+                target="_blank"
+                ><img
+                  src="../img/spiderman-across-the-spider-verse.webp"
+                  class="d-block w-100"
+                  alt="image promo du film Spider-Man across the Spider-Verse"
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.youtube.com/watch?v=iwst-UZn3wM"
+                target="_blank"
+                ><img
+                  src="../img/mario-bros-le-film.webp"
+                  class="d-block w-100"
+                  alt="image promo du film Super Mario Bros le film"
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.youtube.com/watch?v=-5qyM5TSWuY"
+                target="_blank"
+                ><img
+                  src="../img/kung-fu-panda.webp"
+                  class="d-block w-100"
+                  alt="image promo du film Kung fu Panda"
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.youtube.com/watch?v=siiOpMvGRwg"
+                target="_blank"
+                ><img
+                  src="../img/migration.webp"
+                  class="d-block w-100"
+                  alt="image promo du film Migration"
+              /></a>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="classement-par-date-de-sortie/note">
+        <div class="container my-5 section-3-container">
+          <!-- Section de tri -->
+          <div class="d-flex justify-content-between mb-4 section-3-sort">
+            <select id="section-3-film-sort-select" class="form-select w-auto">
+              <option value="popularity">Par Popularité</option>
+              <option value="release-date">Date de sotie</option>
+            </select>
+          </div>
+
+          <!-- Liste des films -->
+          <div id="section-3-movie-list" class="row">
+            <!-- Exemple de film à compléter -->
+            <div
+              class="col-12 col-md-6 col-lg-3 section-3-movie-card"
+              data-movie-popularity="85"
+              data-movie-release-date="2023-06-15"
+            >
+              <div class="section-3-card">
+                <img
+                  src="../img/Spy-x-familly-code-white.webp"
+                  class="card-img-top"
+                  alt="Film 1"
+                />
+                <div class="section-3-card-body">
+                  <h5 class="section-3-card-title">Spy x familly code white</h5>
+                  <p class="section-3-card-text">Description of the film...</p>
+                  <p class="section-3-p">
+                    <strong>Release Date:</strong> June 15, 2023
+                  </p>
+                  <p class="section-3-p"><strong>Popularity:</strong> 85</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-6 col-lg-3 section-3-movie-card"
+              data-movie-popularity="90"
+              data-movie-release-date="2023-05-12"
+            >
+              <div class="section-3-card">
+                <img
+                  src="../img/mario-bros-le-film.webp"
+                  class="card-img-top"
+                  alt="Film 2"
+                />
+                <div class="section-3-card-body">
+                  <h5 class="section-3-card-title">Film Title 2</h5>
+                  <p class="section-3-card-text">
+                    Description of the second film...
+                  </p>
+                  <p class="section-3-p">
+                    <strong>Release Date:</strong> May 12, 2023
+                  </p>
+                  <p class="section-3-p"><strong>Popularity:</strong> 90</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-6 col-lg-3 section-3-movie-card"
+              data-movie-popularity="86"
+              data-movie-release-date="2021-04-11"
+            >
+              <div class="section-3-card">
+                <img
+                  src="../img/gran_turismo.webp"
+                  class="card-img-top"
+                  alt="Film 2"
+                />
+                <div class="section-3-card-body">
+                  <h5 class="section-3-card-title">Film Title 2</h5>
+                  <p class="section-3-card-text">
+                    Description of the second film...
+                  </p>
+                  <p class="section-3-p">
+                    <strong>Release Date:</strong> May 12, 2023
+                  </p>
+                  <p class="section-3-p"><strong>Popularity:</strong> 90</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-6 col-lg-3 section-3-movie-card"
+              data-movie-popularity="98"
+              data-movie-release-date="2013-05-12"
+            >
+              <div class="section-3-card">
+                <img
+                  src="../img/les-trois-mousquetaires-dartagnan.webp"
+                  class="card-img-top"
+                  alt="Film 2"
+                />
+                <div class="section-3-card-body">
+                  <h5 class="section-3-card-title">Film Title 2</h5>
+                  <p class="section-3-card-text">
+                    Description of the second film...
+                  </p>
+                  <p class="section-3-p">
+                    <strong>Release Date:</strong> May 12, 2023
+                  </p>
+                  <p class="section-3-p"><strong>Popularity:</strong> 90</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-6 col-lg-3 section-3-movie-card"
+              data-movie-popularity="57"
+              data-movie-release-date="2024-05-12"
+            >
+              <div class="section-3-card">
+                <img
+                  src="../img/top-gun-maverick.webp"
+                  class="card-img-top"
+                  alt="Film 2"
+                />
+                <div class="section-3-card-body">
+                  <h5 class="section-3-card-title">Film Title 2</h5>
+                  <p class="section-3-card-text">
+                    Description of the second film...
+                  </p>
+                  <p class="section-3-p">
+                    <strong>Release Date:</strong> May 12, 2023
+                  </p>
+                  <p class="section-3-p"><strong>Popularity:</strong> 90</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <br />
+    <br />
+    <div class="line"></div>
+    <br />
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <ul>
+            <li>
+              <a href="mailto:Cinéflix@gmail.com"
+                ><img src="../img/gmail.png" alt="logo gmail" />Emai :
+                Cinéflix@gmail.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:0646424559"
+                ><img src="../img/logo-tel.png" alt="logo telephone" />Téléphone
+                : 0646424559</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.google.fr/maps/place/10+Rue+du+G%C3%A9n%C3%A9ral+Sarrail,+76000+Rouen/@49.4411767,1.1034718,16z/data=!3m1!4b1!4m6!3m5!1s0x47e0de80037b0b31:0xc44b86a6389ced60!8m2!3d49.4411767!4d1.1034718!16s%2Fg%2F11c2h9ws0b?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                ><img
+                  src="../img/logo-loc.png"
+                  alt="logo localisation"
+                />Adresse : 10 Rue du Général Sarrail</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Page Principale</h3>
+          <ul>
+            <li><a href="../Index.html">Accueil</a></li>
+            <li>
+              <a href="../page-html/listes-des-films.html">Liste des films</a>
+            </li>
+            <li><a href="../page-html/nouveaute.html">Nouveautés</a></li>
+            <li><a href="../page-html/genre.html">genre de films</a></li>
+            <li>
+              <a href="../page-html/mention.html " target="_blank"
+                >mention légal
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Réseaux sociaux</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Dfr_FR"
+                target="_blank"
+                ><img src="../img/facebook.png" alt="log facebook" />Facebook</a
+              >
+            </li>
+            <li>
+              <a href="https://x.com/?lang=fr" target="_blank"
+                ><img src="../img/twitter.png" alt="logo twitter" />Twitter</a
+              >
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img src="../img/insta.png" alt="logo instagram" />Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../node_modules/scripts.js"></script>
+  </body>
+</html>

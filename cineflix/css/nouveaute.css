@@ -1,0 +1,324 @@
+body {
+    background-color: black;
+    font-family: 'Agbalumo', sans-serif
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+h1 {
+    color: yellow;
+    size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.img-fluid {
+    height: auto;
+    width: 100%;
+}
+
+
+.navbar a {
+    color: yellow;
+    transition: 0.3s;
+    font-size: 1.5rem;
+  }
+  .bg-nav {
+    background-color: black;
+  }
+  
+  .navbar a:hover {
+    color: cornsilk;
+    scale: 1.1;
+  }
+  
+  .dropdown-menu {
+    background-color: black;
+  }
+  
+  .dropdown-menu img {
+    width: 20%;
+    height: auto;
+    margin-right: 5%;
+  }
+  .dropdown-item:hover {
+    background-color: rgb(55, 55, 55);
+  }
+  .nav-link {
+    color: aliceblue;
+    margin-left: 1rem;
+  }
+  .navbar:active {
+    color: aliceblue;
+  }
+  .navbar-nav .nav-link.show {
+    color: yellow;
+  }
+  .nav-link:focus {
+    color: yellow;
+  }
+  .line {
+    height: 5px;
+    background-color: yellow;
+    box-shadow: 0 0 20px yellow, 0 0 40px yellow, 0 0 60px yellow;
+  }
+  .btn {
+    color: yellow;
+    border-color: yellow;
+  }
+  .btn:hover {
+    background-color: black;
+    border-color: yellow;
+    color: yellow;
+  }
+  .navbar-toggler-icon {
+    background-color: yellow;
+    border-radius: 0.5rem;
+  }
+
+/* fin navbar*/
+
+
+.film-card {
+    margin-bottom: 20px;
+    background-color: black;
+    border-color: yellow;
+    box-shadow: 0 0 2px yellow, 0 0 10px yellow, 0 0 20px yellow;
+}
+
+.film-card:hover{
+    transform: scale(1.2);
+}
+
+.film-image {
+    max-width: 100%;
+    border-radius: 5px;
+    height: 20rem;
+}
+
+.film-info {
+    padding: 10%;
+}
+
+.film-info h5 {
+    font-size: 0.6rem;
+    font-weight: normal;
+    color: white;
+}
+
+.film-info p {
+    margin-bottom: 5px;
+    font-size: 0.7rem;
+    color: yellow;
+}
+/* Fin 1er section */
+
+/* début 2nd section */
+
+/* Assurez-vous que la section utilise toute la hauteur de la fenêtre et que le carrousel soit centré */
+.les_plus_recents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  /* Assurez-vous que le carrousel et ses images soient responsives */
+  #carouselExampleAutoplaying {
+    width: 100%;
+    max-width: 800px; /* Limiter la largeur maximale du carrousel si nécessaire */
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: auto; /* Maintenir la proportion des images */
+  }
+
+/* Fin 2nd section */
+
+/* début 3rd section */
+
+.section-3-movie-card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .section-3-movie-card.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Style de la carte du film */
+  .section-3-card {
+    height: 100%;
+  }
+  
+  .section-3-card-body {
+    padding: 15px;
+  }
+  
+  .section-3-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: yellow;
+  }
+  
+  .section-3-card-text{
+    color: yellow;
+  }
+
+  .section-3-p{
+    color: yellow;
+  }
+
+  /* Ajout de quelques espacements */
+  .section-3-container {
+    margin-top: 50px;
+  }
+  
+  /* Assurez-vous que le tri et les films sont responsives */
+  #section-3-movie-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section-3-movie-card.show{
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px yellow, 0 0 10px yellow, 0 0 20px yellow;
+  }
+
+  .col-12.col-md-6.col-lg-3.section-3-movie-card.show {
+    padding-top: 0.5rem;
+}
+  
+  @media (max-width: 768px) {
+    .section-3-movie-card.show {
+      flex: 1 1 100%;
+    }
+  }
+
+/* fin 3rd section */
+
+/* Titre de la section des films récents */
+.les_plus_recents h2 {
+    font-size: 2rem;
+    color:  yellow;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+/* Carte de film (affichage des films) */
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+}
+
+.movie-card .movie-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.movie-card h3 {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.movie-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.movie-card .card-body {
+    text-align: center;
+}
+
+
+p {
+    color: black;
+    font-size: large;
+}
+
+p.lead{
+    color: yellow;
+}
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 50px 20px;
+    margin-left: 12%;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .footer-column ul li a:hover {
+    color: yellow;
+  }
+  .footer-column img {
+    height: auto;
+    width: 10%;
+  }
+
+@media only screen and (max-width: 426px) {
+
+    .film-info h5 {
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    
+    .film-info p {
+        margin-bottom: 5px;
+        font-size: 1rem;
+    }
+    .section-3-movie-card.show{
+     box-shadow: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-column {
+      margin-bottom: 30px;
+    }
+  }
+  
